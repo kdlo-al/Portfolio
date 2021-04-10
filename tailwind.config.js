@@ -4,7 +4,11 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brown: { 5: '#A1855D' }
+      },
+    },
   },
   variants: {
     extend: {},
